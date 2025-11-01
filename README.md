@@ -17,6 +17,28 @@ This repository provides a highly optimized implementation of Rotary Position Em
 
 ## Installation
 
+### Using uv (Recommended)
+
+[uv](https://github.com/astral-sh/uv) is a fast Python package installer and resolver. It's recommended for managing this project's dependencies.
+
+```bash
+# Clone the repository
+git clone https://github.com/ryankert01/rope-triton-kernel.git
+cd rope-triton-kernel
+
+# Install uv if you haven't already
+pip install uv
+
+# Create a virtual environment and install dependencies
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+uv pip install -e .
+```
+
+### Using pip
+
+Alternatively, you can use traditional pip:
+
 ```bash
 # Clone the repository
 git clone https://github.com/ryankert01/rope-triton-kernel.git
