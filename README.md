@@ -2,6 +2,8 @@
 
 High-performance implementation of Rotary Position Embedding (RoPE) using Triton for GPU acceleration.
 
+info: https://zhuanlan.zhihu.com/p/647109286
+
 ## Overview
 
 This repository provides a highly optimized implementation of Rotary Position Embedding (RoPE), a technique for encoding positional information in transformer models. RoPE has become popular in modern LLMs like LLaMA, GPT-NeoX, and PaLM due to its ability to encode relative positions efficiently.
